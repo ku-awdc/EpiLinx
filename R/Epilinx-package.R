@@ -1,23 +1,18 @@
-#' @name Epilinx-package
-#' @aliases Epilinx
-#' @title What the Package Does (One Line, Title Case)
+#' @name EpiLinx-package
+#' @aliases EpiLinx
+#' @title Interactive Visualization Tool for Nosocomial Outbreaks
 #'
 #' @details
 #' Some description of the package
 #'
 #' @examples
-#' ## An example function:
-#' df <- example_function()
-#' df
+#' ## launch_app()
 #'
 #' ## To cite this package in publications use:
-#' citation("Epilinx")
-#'
-#' @seealso
-#' \code{\link[neatpkg]{pkg_new}} for the function that created this package
+#' citation("EpiLinx")
 #'
 #' @references
-#' Some article that you might want users to look at
+#' TODO: citation for article
 #'
 #' @keywords internal
 "_PACKAGE"

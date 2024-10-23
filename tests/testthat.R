@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library("Epilinx")
+library("EpiLinx")
 
-test_check("Epilinx")
+test_check("EpiLinx")

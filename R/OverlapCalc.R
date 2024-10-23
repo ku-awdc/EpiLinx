@@ -3,12 +3,14 @@
 
 #' @param dt Data table.
 #' @param location Column of either unit, hospital or ward.
+#' @importFrom stats na.omit median
+#' @importFrom utils head read.csv
 
 OverlapCalc <- function(dt, location) {
   location_dt <- NULL
   locs <- location
   for (i in 1:(nrow(dt)-1)){
-    
+
     #Look through location_dt and hospital
     loc = ((1:nrow(dt))>i) & (!grepl(dt$patient[i],dt$patient))&
       (dt[[locs]][i]==dt[[locs]])&
@@ -28,7 +30,7 @@ OverlapCalc <- function(dt, location) {
     }
     rm(loc)
   }
-  
+
   # Calculate duration of overlaps and arrange table
   if (!is.null(location_dt)){
     names(location_dt)[names(location_dt)=="locs"] <- location
@@ -41,6 +43,6 @@ OverlapCalc <- function(dt, location) {
     location_dt <- NULL
   }
 
-  
+
   return(location_dt)
 }

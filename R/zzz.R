@@ -2,9 +2,6 @@
 
 .onAttach <- function(lib, pkg)
 {
-  ## To print a message uncomment this line:
-  # packageStartupMessage("Hello!")
-  
-  ## To set default settings in the environment we can do e.g.:
-  package_env$setting <- 42L
+  ## TODO: this is a bit aggressive; also my system says it can't be honored!
+  Sys.setlocale(category = "LC_ALL", locale = "English_United States.1252")
 }

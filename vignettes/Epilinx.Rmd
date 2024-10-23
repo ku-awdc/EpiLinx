@@ -1,5 +1,5 @@
 ---
-title: "Epilinx"
+title: "EpiLinx"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{template}
@@ -15,5 +15,5 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library("Epilinx")
+library("EpiLinx")
 ```

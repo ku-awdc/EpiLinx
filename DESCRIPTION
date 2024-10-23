@@ -1,4 +1,4 @@
-Package: Epilinx
+Package: EpiLinx
 Title: Interactive Visualization Tool for Nosocomial Outbreaks
 Version: 0.1.0-1
 Date: 2024-10-23
@@ -15,11 +15,24 @@ RoxygenNote: 7.3.2
 Depends:
   R (>= 4.1.0)
 Imports:
-  rlang,
-  dplyr,
-  tibble
+  stats,
+  utils,
+	lubridate,
+	dplyr,
+	tidyverse,
+	ggraph,
+	igraph,
+	reshape2,
+	shiny,
+	ggnetwork,
+	sna,
+	shinydashboard,
+	shinycssloaders,
+	DT,
+	shinyWidgets,
+	shinyjs,
+	shinyBS
 Suggests: 
-  neatpkg,
   knitr,
   rmarkdown,
   spelling,
@@ -27,3 +40,4 @@ Suggests:
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 Language: en-GB
+LazyData: true
