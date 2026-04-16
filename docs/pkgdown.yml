@@ -1,0 +1,7 @@
+pandoc: 3.1.11
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles:
+  EpiLinx: EpiLinx.html
+  outputs: outputs.html
+last_built: 2026-04-16T11:38Z

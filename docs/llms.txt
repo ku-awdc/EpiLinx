@@ -1,6 +1,6 @@
-Last updated: 2026-04-15
+# Welcome to ![](reference/figures/EpiLinxHeader.png)
 
-# Welcome to <img src="man/figures/EpiLinxHeader.png" style="height:60px;">
+Last updated: 2026-04-15
 
 EpiLinx is an R Shiny application for exploring hospital contact
 patterns through interactive visualizations. At its core, EpiLinx
@@ -75,3 +75,17 @@ studies:
 - [Real-time FT-IR typing Klebsiella pneumoniae: a flexible and rapid
   approach for outbreak detection and infection
   control](https://pubmed.ncbi.nlm.nih.gov/40448545/)
+
+# Package index
+
+## All functions
+
+- [`launch_app()`](launch_app.md) : Launch the EpiLinx app
+- [`test_long_2021`](test_long_2021.md) : Example dataset
+
+# Articles
+
+### All vignettes
+
+- [Introduction to EpiLinx](EpiLinx.md):
+- [Outputs](outputs.md):

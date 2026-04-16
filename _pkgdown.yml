@@ -1,0 +1,38 @@
+template:
+  bootstrap: 5
+  logo: null
+
+navbar:
+  structure:
+    left: [home, getstarted, outputs]
+    right: [ssi, ku]
+
+  components:
+    getstarted:
+      text: "Get started"
+      href: articles/EpiLinx.html
+
+    outputs:
+      text: "Outputs"
+      href: articles/outputs.html
+    
+    ssi:
+      text: ""
+      href: https://www.ssi.dk
+
+    ku:
+      text: ""
+      href: https://www.sund.ku.dk
+
+home:
+  sidebar:
+    structure: [links, license, citation, authors, logo]
+
+    components:
+      logo:
+        title: ""
+        text: |
+          <img src="man/figures/EpiLinxLogo.png" style="width:30%; margin-top:10px;">
+
+
+      
