@@ -9,3 +9,5 @@ other
 releases
 reports
 data-raw
+^doc$
+^Meta$

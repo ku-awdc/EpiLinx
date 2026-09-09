@@ -1,6 +1,6 @@
-Last updated: 2026-04-15
+# Welcome to ![](reference/figures/EpiLinxHeader.png)
 
-# Welcome to <img src="man/figures/EpiLinxHeader.png" style="height:60px;">
+Last updated: 2026-04-15
 
 EpiLinx is an R Shiny application for exploring hospital contact
 patterns through interactive visualizations. At its core, EpiLinx

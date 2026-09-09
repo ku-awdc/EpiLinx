@@ -1,0 +1,17 @@
+.navbar .navbar-nav:last-child li:nth-last-child(2) a {
+  background-image: url('assets/SSI.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}
+
+.navbar .navbar-nav:last-child li:last-child a {
+  background-image: url('assets/KUSUND.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+}

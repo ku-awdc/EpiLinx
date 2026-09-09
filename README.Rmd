@@ -1,0 +1,58 @@
+---
+output: github_document
+date: "Last updated: 2026-04-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Welcome to <img src="man/figures/EpiLinxHeader.png" style="height:60px;">
+
+EpiLinx is an R Shiny application for exploring hospital contact patterns through interactive visualizations.
+At its core, EpiLinx implements an algorithm that identifies overlapping hospital stays between patients across departments and institutions.
+
+By quantifying these overlaps, EpiLinx enables users to investigate potential pathways of contact and transmission.
+The app provides a variety of interactive plots and tables that support exploration at multiple levels — from individual patients to departments and entire hospitals.
+
+EpiLinx is designed to support epidemiological analysis by making complex temporal overlap structures accessible and interpretable through an intuitive interface.
+
+For more details, see the documentation and examples included in this repository.
+
+## Installation
+
+The EpiLinx package requires installation of the statistical programming software R. Installers
+for Linux, macOS and Windows can be downloaded from The Comprehensive R Archive Network at [CRAN](https://cran.r-project.org)
+
+You can install EpiLinx from R by:
+
+```r
+install.packages(
+  "EpiLinx",
+  repos = c("https://ku-awdc.r-universe.dev/", "https://cran.rstudio.com/")
+)
+```
+
+## Usage
+
+EpiLinx is an interactive Shiny application for exploring overlapping hospital stays.  
+In most cases, you simply launch the app and explore the data through the user interface.
+
+```r
+library(EpiLinx)
+
+run_app()
+```
+
+## Proven use
+
+EpiLinx has been routinely used in the Danish outbreak surveillance for over six years, supporting weekly analyses of hospital contact patterns.
+
+The tool has been applied in real-world epidemiological investigations and has contributed to multiple studies on transmission dynamics and healthcare-associated contacts.
+EpiLinx has been used in the following studies:
+
+- [Characterization of carbapenemase-producing Acinetobacter baumannii isolates from Danish patients 2014-2021: detection of a new international clone – IC11](https://pubmed.ncbi.nlm.nih.gov/37244424/)
+- [Contaminated dicloxacillin capsules as the source of an NDM-5/OXA-48-producing Enterobacter hormaechei ST79 outbreak, Denmark and Iceland, 2022 and 2023](https://pubmed.ncbi.nlm.nih.gov/36862098/)
+- [Surveillance of OXA-244-producing Escherichia coli and epidemiologic investigation of these cases, Denmark, May 2016 - July 2019](https://pubmed.ncbi.nlm.nih.gov/32400363/)
+- [Investigation of possible transmission of carbapenemase-producing Klebsiella pneumonia complex members in Denmark using core genome MLST and national patient registry data](https://pubmed.ncbi.nlm.nih.gov/32135203/) 
+- [Real-time FT-IR typing Klebsiella pneumoniae: a flexible and rapid approach for outbreak detection and infection control](https://pubmed.ncbi.nlm.nih.gov/40448545/)
